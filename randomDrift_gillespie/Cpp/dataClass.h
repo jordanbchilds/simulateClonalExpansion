@@ -4,6 +4,8 @@
 #include <iostream>
 #include <vector>
 
+#include "randomSampling.h"
+
 class ProportionDeficientData {
 private:
     unsigned int _totalDataSize; // total data size, to be saved on the heap.

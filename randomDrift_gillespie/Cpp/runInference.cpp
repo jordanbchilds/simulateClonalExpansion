@@ -13,7 +13,7 @@ int main () {
     srand(static_cast<unsigned int>(time(NULL)));
     
     const unsigned int nSim = 100;
-    const unsigned int nOut = 500;
+    const unsigned int nOut = 10;
     cout << "Number of simulations for a single proportion calculation: " << nSim << '\n';
     cout << "Number of iterations of the inference scheme: " << nOut << '\n';
     

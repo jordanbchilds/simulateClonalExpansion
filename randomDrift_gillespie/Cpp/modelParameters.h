@@ -5,8 +5,8 @@
 //  Created by Jordan Childs on 30/05/2024.
 //
 
-#ifndef ModelParameters_h
-#define ModelParameters_h
+#ifndef modelParameters_h
+#define modelParameters_h
 
 #include <iostream>
 #include <fstream>
@@ -214,4 +214,4 @@ void ModelParameters::printToFile (std::ofstream& file, const std::string& sep) 
     file << _logGenRate << sep << _logMutationProb << sep << _logDefThreshold << sep << _modelPrecision << "\n";
 }
 
-#endif /* ModelParameters_h */
+#endif /* modelParameters_h */
